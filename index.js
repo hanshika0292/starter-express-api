@@ -16,7 +16,7 @@ const server = http.createServer(app);
 // prod
 const io = require('socket.io')(server, {
     cors: {
-        origin: "https://bank-bailout-banter.vercel.app/",  // your client origin
+        origin: "https://bank-bailout-banter-ezbwmbq41-hanshika02.vercel.app",  // your client origin
         methods: ["GET", "POST"]
     }
 });
